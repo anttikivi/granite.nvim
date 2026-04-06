@@ -22,6 +22,12 @@ function M.setup(opts)
 end
 
 ---@param opts? granite.Config
+---@return granite.Config
+function M.extend(opts)
+    return opts and vim.tbl_deep_extend("force", {}, M.config, opts) or M.config
+end
+
+---@param opts? granite.Config
 function M.load(opts)
     if not did_set_up then
         M.setup()

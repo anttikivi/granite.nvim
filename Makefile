@@ -11,6 +11,8 @@ all: lint
 
 lint: FORCE
 	uvx reuse lint
+	selene .
+	stylua . --check
 
 build: FORCE
 	lua generate.lua
