@@ -3,6 +3,7 @@
 -- SPDX-License-Identifier: GPL-3.0-or-later
 
 return {
+    ---@type granite.Palette
     dark = {
         bg = { h = 252.8, s = 17.3, l = 7.2 },
         bg_light = { h = 252.8, s = 17.3, l = 14.6 },
@@ -18,6 +19,7 @@ return {
         magenta = { h = 323.8, s = 78.9, l = 76.4 },
         cyan = { h = 197.4, s = 59.6, l = 74.7 },
     },
+    ---@type granite.Palette
     light = {
         bg = { h = 0, s = 0, l = 98.6 },
         bg_light = { h = 0, s = 0, l = 94 },
