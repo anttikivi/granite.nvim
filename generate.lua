@@ -146,6 +146,7 @@ local function ghostty()
         string.format("palette = 13=%s", convert_brighter(p.magenta)),
         string.format("palette = 14=%s", convert_brighter(p.cyan)),
         string.format("palette = 15=%s", convert(p.fg)),
+        "",
     }
 
     local file_path = "extras/ghostty/granite-dark"
@@ -186,6 +187,7 @@ local function ghostty()
         string.format("palette = 13=%s", convert_brighter(p.magenta)),
         string.format("palette = 14=%s", convert_brighter(p.cyan)),
         string.format("palette = 15=%s", convert(p.fg)),
+        "",
     }
 
     file_path = "extras/ghostty/granite-light"
