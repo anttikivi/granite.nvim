@@ -6,6 +6,8 @@ local M = {}
 
 ---@class granite.Config
 M.defaults = {
+    ---Controls whether the color scheme sets the background color. Set to
+    ---`true` to enable transparent background in Neovim.
     ---@type boolean
     transparent = false,
 }
